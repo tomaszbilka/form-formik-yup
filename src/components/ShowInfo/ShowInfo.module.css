@@ -1,0 +1,7 @@
+.infoStyle {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 50%;
+  top: 65px;
+  transform: translateX(-50%);
+}
