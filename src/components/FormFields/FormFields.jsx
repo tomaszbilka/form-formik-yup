@@ -163,7 +163,7 @@ const FormField = () => {
       <form onSubmit={handleSubmit}>
         <div className={styles.container}>
           <div className={styles.form_group}>
-            <label htmlFor='name'>Name:</label>
+            <label htmlFor='name'>Dish name:</label>
             <input
               id='name'
               name='name'
@@ -196,7 +196,7 @@ const FormField = () => {
           </div>
 
           <div className={styles.form_group}>
-            <label htmlFor='type'>Type:</label>
+            <label htmlFor='type'>Dish type:</label>
             <select
               id='type'
               name='type'
